@@ -1,0 +1,1 @@
+Ce plugin ajoute un formulaire à chaque instance de la chaîne de caractère: [intro-cms-formulaire]

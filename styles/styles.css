@@ -1,0 +1,65 @@
+:root {
+  --icms-form-main: #6a788d;
+  /* --icms-form-main: #f166f1; */
+}
+
+[data-js-icmsform] {
+  padding: 10px 5px;
+  color: var(--icms-form-main);
+}
+
+[data-js-icmsform] h2 {
+  margin-bottom: 1em;
+}
+
+[data-js-icmsform] > form * {
+  border-color: var(--icms-form-main) !important;
+}
+
+[data-js-icmsform] > form > *:focus {
+  border-color: var(--global--color-primary) !important;
+}
+
+[data-js-icmsform] > form > input {
+  color: var(--icms-form-main);
+  margin: 0 0 25px 0 !important;
+  display: block;
+  width: 100%;
+  background-color: var(--global--color-background);
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-color: var(--icms-form-main) !important;
+  padding: 0;
+}
+
+[data-js-icmsform] > form > textarea {
+  margin: 10px 0 !important;
+  background-color: var(--global--color-background);
+}
+
+[data-js-icmsform] > form > *::placeholder {
+  /* https://css-tricks.com/almanac/selectors/p/placeholder/ */
+  color: var(--icms-form-main);
+  opacity: 1;
+}
+
+[data-js-icmsform] > form > *:focus::placeholder {
+  color: transparent;
+}
+
+[data-js-icmsform] > form > button {
+  background-color: var(--icms-form-main) !important;
+}
+
+[data-js-icmsform] > form > button:hover {
+  background-color: var(--global--color-background) !important;
+  color: var(--icms-form-main);
+}
+
+[data-js-icmsform] > h3 {
+  margin-top: 1em;
+  text-align: center;
+  background-color: whitesmoke;
+  line-height: 2;
+}
